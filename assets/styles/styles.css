@@ -65,3 +65,11 @@ body {
   letter-spacing: var(--letter-spacing);
   background-color: var(--bg-text-displays)
 } 
+
+.clock #ampm {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1em;
+  font-weight: bold;
+  margin: auto .5rem;
+}
