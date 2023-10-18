@@ -38,6 +38,7 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing);
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .clock {
@@ -52,8 +53,9 @@ body {
 }
 
 .clock span {
-  width: 10rem;
+  width: auto;
   height: 8rem;
+  padding: 1rem;
   background-color: var(--bg-displays);
   display: flex;
   justify-content: center;

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/assets/styles/styles.css">
   <link rel="stylesheet" href="/assets/styles/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="./assets/img/icons/clock-regular.svg" type="image/x-icon">
   <title>Digital Clock | Mateus A. Carvalho DEV</title>
 </head>
 <body>
@@ -14,23 +15,30 @@
   <div class="clock">
     
     <div>
-      <span class="hour">00</span>
+      <span id="hour">00</span>
       <span class="text">Hours</span>
     </div>
 
     <div>
-      <span class="minutes">00</span>
+      <span id="minutes">00</span>
       <span class="text">Minutes</span>
     </div>
 
     <div>
-      <span class="seconds">00</span>
+      <span id="seconds">00</span>
       <span class="text">Seconds</span>
+    </div>
+
+    <div>
+      <span id="miliseconds">000</span>
+      <span class="text">miliseconds</span>
     </div>
 
     <div>
       <span id="ampm">AM</span>
     </div>
   </div>
+
+  <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
