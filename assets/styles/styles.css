@@ -29,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('../img/bg-forest01.jpg');
+  background: url('./../img/bg-forest01.jpg');
   background-position: top center;
   background-size: cover;
 }
